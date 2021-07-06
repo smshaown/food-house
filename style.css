@@ -14,7 +14,7 @@ body{
     padding-left: 4%;
     margin-right: 2%;
  }
- .half-width .skip-color{
+.skip-color{
      color: #FB934A;
  }
 
@@ -93,7 +93,7 @@ a.link_button {
     margin:0 auto;
     padding: 16px;
     border-radius: 20px;
-    box-shadow: 10px  10px 40px gray;
+    box-shadow: 10px  10px 30px gray;
  }
 
 .singleBox img {
@@ -104,7 +104,44 @@ a.link_button {
 
 /* My Recipes Section End */
 
-
-.socialBox{
-    margin-top: 50px;
+/* Social Area start */
+.social-area{
+    width: 85%;
+    margin: 120px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 31px 8px grey;
 }
+
+.social-content{
+    width: 34%;
+}
+
+.social-content h1 {
+    margin-top: -26px;
+}
+.social-content p{
+    color: gray;
+}
+/* Social Area end */
+
+/* Footer Area  Start*/
+.footer-area{
+    width: 100%;
+    background-color: #0B0D17;
+    text-align: center;
+}
+
+.footer-info{
+    padding: 10px 30px;
+}
+.footer-info h2{
+    color: gray;
+
+}
+.footer-info p{
+    color: gray;
+    letter-spacing: .50px;
+}
+/* Footer Area  End*/
