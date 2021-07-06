@@ -58,6 +58,8 @@ a.link_button {
 }
 /* Top Banner End */
 
+/* About Section Start */
+
 .about{
     background-image: url(images/shapes/7.png);
     padding-top: 10px;
@@ -66,34 +68,43 @@ a.link_button {
 .about h2 {
     margin-top: 100px;
 }
-
+/* About Section End */
 
 
 /* My Recipes Section Start */
 
-.myRecipes {
-    width: 530px;
-    height: auto;
-    margin-left: 30%;
-    text-align: center;
-    padding-top: 19px;
-    padding-bottom: 17px;
-}
 
-.myRecipes h2 {
-    color: #757171;
-}
-
-.myRecipes p {
-    letter-spacing: 1px;
-    line-height: 24px;
-    color: gray;
-}
-
-.recipes-area{
+.flex-container{
     display: flex;
-    width: 300px;
 }
+.recipes-info{
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+.recipes-info p{
+    line-height: 27px;
+    color: #5f5353;
+    margin-bottom: -55px;
+}
+.singleBox{
+    width: 335px;
+    margin:0 auto;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 10px  10px 40px gray;
+ }
 
+.singleBox img {
+    width: 336px;
+    height: 252px;
+    border-radius: 14px;
+}
 
 /* My Recipes Section End */
+
+
+.socialBox{
+    margin-top: 50px;
+}
