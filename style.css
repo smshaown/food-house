@@ -123,9 +123,9 @@ a.link_button {
 .sigle-menu h4 {
     padding-top: 14px;
 }
-
-
-
+.sigle-menu p{
+    line-height: 25px;
+}
 /* Menu Area End */
 
 
