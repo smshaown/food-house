@@ -101,6 +101,33 @@ a.link_button {
 }
 /* My Recipes Section End */
 
+/* Menu Area Star */
+.menu-area h1 {
+    text-align: center;
+    margin-top: 141px;
+    color: #FD5331;
+}
+.singleBox-1{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.sigle-menu img{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   float: left;
+   margin-right: 20px;
+}
+
+.sigle-menu h4 {
+    padding-top: 14px;
+}
+
+
+
+/* Menu Area End */
+
 
 
 
