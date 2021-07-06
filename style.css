@@ -42,7 +42,7 @@ body{
     letter-spacing: 0px;
 }
 
-a.link_button {
+.link_button {
     border: none;
     padding: 15px 23px;
     color: white;
@@ -52,7 +52,9 @@ a.link_button {
     font-size: 15px;
     letter-spacing: 0px;
 }
-
+#btn{
+    margin-top: 10px;
+}
 .half-width .img-fluid{
     width: 80%;
 }
@@ -63,6 +65,8 @@ a.link_button {
 .about{
     background-image: url(images/shapes/7.png);
     padding-top: 10px;
+    background-size: cover;
+    background-repeat: repeat-x;
 }
 
 .about h2 {
