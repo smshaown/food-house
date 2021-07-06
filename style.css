@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Top Banner Start */
+/* .container{
+    width: 1200px;
+    margin: auto;
+} */
+ .flex-box{
+     display: flex;
+     margin-top: 40px;
+ }
+ .half-width{
+     width: 50%;
+     padding-left: 6%;
+ }
+ .half-width .skip-color{
+     color: #FB934A;
+ }
+
+ .half-width h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: -2px;
+    color: #575757;
+}
+.half-width p {
+    font-size: 20px;
+    line-height: 31px;
+    color: gray;
+    font-style: normal;
+    margin-bottom: -1px;
+    margin-top: 18px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+a.link_button {
+    border: none;
+    padding: 15px 23px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+.half-width .img-fluid{
+    width: 80%;
+}
+
+
+
+/* Top Banner End */
